@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Test</description>
+      <initValue>'Rick_Lee'</initValue>
+      <name>G_UesrName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Test</description>
+      <initValue>''</initValue>
+      <name>G_ReturnString</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
