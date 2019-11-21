@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-System.setProperty("webdriver.chrome.driver", "/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedirver")
+System.setProperty("webdriver.chrome.driver", "/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedriver")
 String varNow = CustomKeywords.'taiwanlife.Common.GetDataNow'('yyyyMMddHHmmss')
 println('Now : ' + varNow)
 GlobalVariable.G_ReturnString = 'ReturnTest'
