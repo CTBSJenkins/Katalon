@@ -25,6 +25,7 @@ GlobalVariable.G_ReturnString = 'ReturnTest'
 println('G_UesrName : ' + GlobalVariable.G_UesrName)
 println('G_ReturnString : ' + GlobalVariable.G_ReturnString)
 //開啟瀏覽器
+System.setProperty("webdriver.chrome.driver","/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedriver");
 ChromeOptions options = new ChromeOptions()
 options.addArguments("--no-sandbox");
 options.addArguments("--disable-dev-shm-usage");
