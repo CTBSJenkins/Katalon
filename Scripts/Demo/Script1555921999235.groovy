@@ -25,13 +25,15 @@ GlobalVariable.G_ReturnString = 'ReturnTest'
 println('G_UesrName : ' + GlobalVariable.G_UesrName)
 println('G_ReturnString : ' + GlobalVariable.G_ReturnString)
 //開啟瀏覽器
-System.setProperty("webdriver.chrome.driver","/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedriver");
-ChromeOptions options = new ChromeOptions()
-options.addArguments("--no-sandbox");
-options.addArguments("--disable-dev-shm-usage");
-options.addArguments("--headless");
-WebDriver driver = new ChromeDriver(options)
-
-driver.get("https://katalon-demo-cura.herokuapp.com/")
+//System.setProperty("webdriver.chrome.driver","/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedriver");
+//ChromeOptions options = new ChromeOptions()
+//options.addArguments("--no-sandbox");
+//options.addArguments("--disable-dev-shm-usage");
+//options.addArguments("--headless");
+//WebDriver driver = new ChromeDriver(options)
+//driver.get("https://katalon-demo-cura.herokuapp.com/")
+WebUI.openBrowser('')
+//進入URL
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.waitForElementClickable(findTestObject('Login/btn_MakeAppointment'), 10)
