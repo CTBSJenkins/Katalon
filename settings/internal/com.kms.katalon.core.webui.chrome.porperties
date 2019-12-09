@@ -1,1 +1,1 @@
-{"CHROME_DRIVER":{"args":["--headless","--no-sandbox","--disable-dev-shm-usage"]}}
+{"CHROME_DRIVER":{"args":["--headless","--no-sandbox","--disable-dev-shm-usage"],"binary":"/usr/soft/Katalon/configuration/resources/drivers/chromedriver_linux64/chromedriver"}}
