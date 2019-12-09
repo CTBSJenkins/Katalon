@@ -32,5 +32,6 @@ options.addArguments("--disable-dev-shm-usage");
 options.addArguments("--headless");
 WebDriver driver = new ChromeDriver(options)
 
-driver.get("https://www.google.com")
+driver.get("https://katalon-demo-cura.herokuapp.com/")
 
+WebUI.waitForElementClickable(findTestObject('Login/btn_MakeAppointment'), 10)
